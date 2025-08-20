@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indeed- HTML Only</title>
+  <style>
+
+    .logo {
+      font-size: 50px;
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      color: rgb(248, 255, 34);
+      display: block;
+      background-color: #84d0ff;
+    
+
+    }
+
+    .signupcontainer {
+        font-size: 50px;
+        color:rgb(255, 255, 255);
+        padding: 5px;
+        margin: 10px;
+        margin-left: 1px;
+        display: block;
+
+
+    }
+      .signupbutton {
+        display: flex;
+        background: #108fff;
+        color: white;
+        padding: 8px;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        width: 60px;
+        height:30px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 18px;
+        align-items: center;
+        margin-left: auto;
+        border-radius: 20px;
+        padding: 20px 50px;
+        text-align: center;
+        font-family: 'Inter', sans-serif
+       
+      }
+
+
+
+    .nav-link {
+      text-decoration: none;
+      color: #222;
+      font-size: 16px;
+    
+    }
+
+    .nav-link:hover {
+      text-decoration:none;
+      color: rgb(21, 21, 21);
+      font-size: 15px;
+      text-decoration: underline; 
+    }
+
+
+    .search-box {
+    position: fixed;
+    bottom: 10px; 
+    left: 20%; 
+    transform: translateX(-50%);
+    z-index: 999; 
+    padding: 20px 20px;
+    font-size: 30px;
+    }
+
+
+    .ourList {
+       display: flex;
+      align-items: center;
+       gap: 10px;
+       padding: 8px;
+       background-color: #84d0ff;
+       color:white;
+       text-align: center;
+       font-weight: bold;
+       letter-spacing: 0.80px;
+       font-family: 'Inter', sans-serif;
+
+    
+    }
+    .ourList a:hover {
+      color: rgb(255, 248, 34);
+      text-decoration: none;;
+    }
+
+
+
+
+
+   
+  </style>
+</head>
+
+<header>
+<body>
+          <a class="logo" href="#">Jobdeed</a>
+        <div class="ourList">
+          <a class="nav-link" href="a">Find jobs</a>
+          <a class="nav-link" href="#">Company reviews</a>
+          <a class="nav-link" href="#">Find salaries</a>
+          <a class="nav-link" href="#">Employers / Post Job</a>
+          <a class="nav-link" href="#"> 
+            <button class="signupbutton" id="sign-up">Sign in</button>
+          </a>
+        </div>
+        <div class=".seperator"></div>
+        </div>
+    </div>
+    <div class="search-box">
+        <input placeholder="search-items"/>
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </header>
+    <nav class="navbar">
+
+      <div class="signupcontainer">
+            <h1>Welcome to Jobdeed:</h1>
+           <h2> Name: </h2>
+           <h3> Gender: </h3>
+           <h4> Age: </h4>
+            <h5>Occupancy </h5>
+           <h6> Location: </h6>
+            <h6>Career Status: </h6>
+            <h4> address </h4>
+      </div>
+</body>
+<script>
+ const firstButton = document.getElementById('sign-up');
+
+ firstButton.addEventListener('click', function() {
+   alert('Are you ready to sign-up?')
+ }
+
+
+
+</script>
+</html>
